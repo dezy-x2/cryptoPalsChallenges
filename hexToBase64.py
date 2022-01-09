@@ -75,3 +75,7 @@ base64Dict = {
     '/': 63,
     '=': 64
 }
+
+reverseBase64Dict = {}
+for key, value in base64Dict.items():
+    reverseBase64Dict[value] = key
